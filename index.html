@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Admin - Ekskul IT SMAN 1 Tanjung</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="login-container">
+    <img src="https://via.placeholder.com/80 " alt="Logo Ekskul IT" class="login-logo" />
+    <h1>Login Admin</h1>
+
+    <form class="login-form" id="loginForm">
+      <div class="form-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Masukkan username" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan password" required />
+      </div>
+
+      <div class="error-message" id="errorMessage">
+        Username atau password salah!
+      </div>
+
+      <button type="submit" class="login-btn">Masuk</button>
+    </form>
+
+    <div class="login-footer">
+      Ekskul IT SMAN 1 Tanjung © 2023
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
