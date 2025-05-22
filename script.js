@@ -2,8 +2,8 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
   e.preventDefault();
 
   // Credentials yang sudah ditentukan
-  const correctUsername = "Admin";
-  const correctPassword = "22102008";
+  const correctUsername = "admin";
+  const correctPassword = "admin";
 
   // Ambil nilai input
   const username = document.getElementById('username').value;
