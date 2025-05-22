@@ -26,22 +26,7 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.2);
     }
 
-    .logo {
-  display: flex;
-  align-items: center;
-    }
-
-.logo img {
-  width: 40px;            
-  height: auto;
-  margin-right: 10px;     
-  border-radius: 8px;     
-  transition: transform 0.3s ease;
-    }
-
-.logo img:hover {
-  transform: scale(1.1);   /* Efek zoom saat hover */
-}
+    
 
     .nav-menu {
       display: flex;
