@@ -28,20 +28,27 @@ body {
 
 
 .logo {
-  display: none; /* Sembunyikan teks logo */
+  display: flex;
+  margin-right: 1rem;
 }
 
 .logo img {
-  width: 30px;
+  width: 30px;             
   height: auto;
+  margin-right: 8px;    
   border-radius: 6px;
   transition: transform 0.3s ease;
 }
 
 .logo img:hover {
-  transform: scale(1.1);
+  transform: scale(1.1);   
 }
 
+.logo span {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
 
 .nav-menu {
   display: flex;
