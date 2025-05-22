@@ -12,7 +12,24 @@
       min-height: 100vh;
     }
 
-    
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 20px;             
+  height: auto;
+  margin-right: 10px;      
+  border-radius: 8px;    
+  transition: transform 0.3s ease;
+}
+
+.logo img:hover {
+  transform: scale(1.1);  
+}
+
     .navbar {
       display: flex;
       justify-content: space-between;
