@@ -26,10 +26,9 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-/* Logo di dalam navbar */
+
 .logo {
   display: flex;
-  align-items: center;
   margin-right: 1rem;
 }
 
@@ -51,7 +50,7 @@ body {
   color: white;
 }
 
-/* Menu Navigasi */
+
 .nav-menu {
   display: flex;
   gap: 1.5rem;
@@ -84,7 +83,7 @@ body {
   transition: transform 0.3s ease;
 }
 
-/* Wrapper Konten Utama */
+
 .content-wrapper {
   max-width: 900px;
   margin: 3rem auto;
@@ -101,7 +100,7 @@ body {
   text-align: center;
 }
 
-/* Card Section */
+
 .card-section {
   background-color: #f8fafc;
   padding: 1.5rem;
@@ -173,20 +172,15 @@ body {
 
 
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
+  .nav-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
   }
 
-  .nav-menu {
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8rem;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-    margin-top: 0.5rem;
+  .nav-menu a {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
   }
 
   .logo {
@@ -223,7 +217,7 @@ body {
   }
 
   .activity-grid {
-    grid-template-columns: 1fr; /* Satu kolom di mobile */
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
 }
