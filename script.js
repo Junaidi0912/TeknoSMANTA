@@ -13,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', function(e) {
   // Validasi
   if (username === correctUsername && password === correctPassword) {
     alert("Login berhasil! Selamat datang, Admin.");
-    window.location.href = "admin.html";
+    window.location.href = "https://junaidi0912.github.io/TeknoSMANTA/beranda";
   } else {
     errorMessage.style.display = 'block';
   }
