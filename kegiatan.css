@@ -14,9 +14,9 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between; /* Logo di kiri, menu di kanan */
+  justify-content: center; 
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.1); /* Latar transparan dengan efek blur */
+  background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   padding: 1rem 2rem;
   position: sticky;
@@ -83,9 +83,9 @@ body {
 
 .content-wrapper {
   max-width: 900px;
-  margin: 3rem auto; /* Pastikan margin otomatis menempatkan konten di tengah */
+  margin: 3rem auto;
   padding: 2rem;
-  background-color: white; /* Latar belakang putih untuk konten utama */
+  background-color: white; 
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
@@ -220,7 +220,7 @@ body {
   }
 
   .activity-grid {
-    grid-template-columns: 1fr; /* Satu kolom di mobile */
+    grid-template-columns: 1fr; 
     gap: 1rem;
   }
 }
