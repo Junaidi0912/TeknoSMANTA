@@ -12,12 +12,11 @@ body {
   min-height: 100vh;
 }
 
-
 .navbar {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between; /* Logo di kiri, menu di kanan */
   align-items: center;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1); /* Latar transparan dengan efek blur */
   backdrop-filter: blur(10px);
   padding: 1rem 2rem;
   position: sticky;
@@ -26,7 +25,6 @@ body {
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-
 .logo {
   display: flex;
   align-items: center;
@@ -34,15 +32,15 @@ body {
 }
 
 .logo img {
-  width: 30px;             
+  width: 30px;
   height: auto;
-  margin-right: 8px;    
+  margin-right: 8px;
   border-radius: 6px;
   transition: transform 0.3s ease;
 }
 
 .logo img:hover {
-  transform: scale(1.1);   
+  transform: scale(1.1);
 }
 
 .logo span {
@@ -50,7 +48,6 @@ body {
   font-weight: bold;
   color: white;
 }
-
 
 .nav-menu {
   display: flex;
@@ -84,23 +81,22 @@ body {
   transition: transform 0.3s ease;
 }
 
-
 .content-wrapper {
   max-width: 900px;
-  margin: 3rem auto;
+  margin: 3rem auto; /* Pastikan margin otomatis menempatkan konten di tengah */
   padding: 2rem;
-  background-color: transparent;
+  background-color: white; /* Latar belakang putih untuk konten utama */
   border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
 
 .section-title {
   font-size: 1.8rem;
-  color: #ffffff;
+  color: #1e3a8a; /* Warna biru tua untuk judul */
   font-weight: 700;
   margin-bottom: 1.5rem;
   text-align: center;
 }
-
 
 .card-section {
   background-color: #f8fafc;
@@ -170,7 +166,7 @@ body {
   color: #4b5563;
 }
 
-
+/* RESPONSIF UNTUK MOBILE */
 @media (max-width: 768px) {
   .navbar {
     flex-direction: row;
@@ -196,7 +192,6 @@ body {
     align-items: center;
     margin-right: auto;
   }
-}
 
   .logo span {
     font-size: 1.1rem;
@@ -225,7 +220,7 @@ body {
   }
 
   .activity-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Satu kolom di mobile */
     gap: 1rem;
   }
 }
