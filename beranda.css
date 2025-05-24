@@ -15,7 +15,7 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: center; /* Tombol diketengahkan */
+  justify-content: center; 
   align-items: center;
   background-color: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
