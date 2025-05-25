@@ -166,61 +166,14 @@ body {
   color: #4b5563;
 }
 
-/* RESPONSIF UNTUK MOBILE */
+
 @media (max-width: 768px) {
-  .navbar {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-  }
+  @media (max-width: 768px) {
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
 
-  .nav-menu {
-    flex-direction: row;
-    gap: 0.8rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .nav-menu a {
-    font-size: 0.9rem;
-    padding: 0.4rem 0.8rem;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    margin-right: auto;
-  }
-
-  .logo span {
-    font-size: 1.1rem;
-  }
-
-  .logo img {
-    width: 28px;
-    margin-right: 6px;
-  }
-
-  .content-wrapper {
-    margin: 2rem 1rem;
-    padding: 1.5rem;
-  }
-
-  .section-title {
-    font-size: 1.5rem;
-  }
-
-  .card-section {
-    padding: 1rem;
-  }
-
-  .card-section h2 {
-    font-size: 1.2rem;
-  }
-
-  .activity-grid {
-    grid-template-columns: 1fr; 
-    gap: 1rem;
-  }
-}
+      .info-card:hover {
+        transform: translateY(0);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
